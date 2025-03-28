@@ -90,4 +90,4 @@ numbers.forEach(function(number) {
 - **Event listeners** – Clicks, form submissions.  
 - **Customizable functions** – Allow behavior to be adjusted.  
 
-Would you like more examples or dive into **promises** and **async/await**? 🚀
+Would you like more examples or dive into **promises** and **async/await**? 🚀 
