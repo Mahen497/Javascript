@@ -234,7 +234,6 @@ Js
 --: spread / Rest
 
 
-
 --: Ajax
 	AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server without reloading the entire webpage
 
