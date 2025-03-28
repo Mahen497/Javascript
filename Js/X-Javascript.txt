@@ -1,0 +1,253 @@
+https://www.pluralsight.com/paths/javascript-2022
+https://scrimba.com/topics
+https://scrimba.com/learn-react-c0e
+
+
+Interiew 
+--: HTML 5 New Feature
+		Semantic Elements – New tags like <header>, <footer>, <article>, and <section> for better content structure and SEO.
+		Multimedia Support – Native support for <audio> and <video> without third-party plugins.
+		New Form Input Types – Includes email, number, date, range, and more for enhanced form handling.
+		Local Storage & Session Storage – Client-side storage for saving data without cookies.
+		Geolocation API – Accesses user location to build location-based services.
+		Canvas & SVG – Enables drawing graphics, charts, and animations directly in the browser.
+		Drag and Drop API – Allows users to drag and drop elements easily.
+		Web Workers – Runs JavaScript in the background for better performance.
+		Responsive Design – Improved adaptability for different screen sizes using the <meta> viewport tag.
+		Improved Accessibility – Better support for assistive technologies and screen readers.
+	
+--:	Purpose of the <meta> Tag in HTML:
+		The <meta> tag provides metadata (information about the webpage) to browsers and search engines.
+		It is placed within the <head> section of an HTML document and does not display on the webpage itself.
+
+		📌 Explanation:
+		width=device-width – Sets the page width to match the device's screen width.
+		initial-scale=1.0 – Ensures the page is displayed at 100% zoom when first loaded.
+
+--:	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+--:	Difference Between display: grid; and display: flex;
+		👉 "CSS Grid is a two-dimensional layout system, while Flexbox is a one-dimensional layout system."
+
+		📊 2. Explain the Core Difference
+		CSS Grid: Works with rows and columns, making it ideal for complex page layouts (e.g., website structure).
+		Flexbox: Works along one axis (either row or column), making it perfect for smaller components (e.g., navigation bars or cards).
+
+		When would you choose Grid over Flexbox?
+		"I’d choose Grid for structured layouts where I need both rows and columns. For example, a product gallery."
+
+--:	Difference Between <div>, <article>, and <section> Tags (with SEO Benefits)
+	Tag	Purpose	When to Use
+
+	<div> 
+		Generic container (no semantic meaning)	use For grouping content without special meaning.
+	<article> 
+		Independent, self-contained content	use For blog posts, news, or any standalone content.
+	<section> 
+		Thematic grouping of related content use For dividing content into logical parts (e.g., introduction, services, etc.).
+
+--:	What are CSS Pseudo-Classes and Pseudo-Elements?
+	Pseudo-Class
+		Targets elements based on their state
+		Starts with a colon :
+		Apply styles when an element is in a specific condition
+		:hover, :focus, :nth-child()
+
+	Pseudo-Element
+		Targets specific parts of an element
+		Starts with double colons ::
+		Style part of an element (e.g., first letter)
+		::before, ::after, ::first-line
+
+--: When a client complains about slow website load time, as a frontend developer, your goal is to identify the bottlenecks and optimize performance.
+	Here’s a structured approach to diagnose and resolve the issue:
+
+	Audit Performance – Use Google Lighthouse or PageSpeed Insights.
+	Optimize Assets – Compress images, minify CSS/JS, use lazy loading.
+	Enhance Delivery – Implement caching, use CDN, reduce HTTP requests.
+	Refactor Code – Optimize React components (e.g., lazy loading).
+	Monitor and Improve – Track performance regularly with tools.
+
+	1. Analyze and Measure the Problem
+		🛠️ Tools to Measure Website Performance:
+			Google Lighthouse (in Chrome DevTools) – Analyzes page speed and gives suggestions.
+			PageSpeed Insights – Measures performance on both desktop and mobile.
+			WebPageTest – Provides a detailed breakdown of load times.
+			GTmetrix – Tests load speed and identifies bottlenecks.
+			
+	2. Optimize Frontend Performance
+		📦 A. Optimize Images
+			Compress Images: Use tools like TinyPNG, ImageOptim, or Squoosh.
+			Use Next-Gen Formats: Convert to WebP, AVIF for faster loading.
+			Lazy Load Images: Only load images when they come into view.
+			<img src="image.webp" loading="lazy" alt="Example Image">
+
+		📜 B. Minify and Compress Files
+			Minify CSS/JS: Reduce file size by removing white spaces and comments.
+			Use Gzip/Brotli Compression: Ensure the server compresses resources before sending them.
+			
+		📊 C. Optimize CSS and JavaScript
+			Remove Unused CSS/JS: Use PurgeCSS or Chrome’s Coverage tool.
+			Defer/Async JavaScript: Prevent blocking by loading non-critical scripts later.
+			<script src="script.js" defer></script>
+
+		📁 D. Optimize Fonts
+			Use Modern Formats: Use WOFF2 for better compression.
+			Load Fonts Asynchronously: Avoid font render-blocking.
+			<link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+		🔥 E. Implement Caching Strategies
+			Browser Caching: Set appropriate cache headers on assets (CSS, JS, Images).
+			Cache-Control: max-age=31536000, immutable
+
+	📶 3. Optimize Network Requests
+		Reduce HTTP Requests: Combine small CSS/JS files when possible.
+		Use a CDN (Content Delivery Network): Deliver static assets faster globally.
+		Prefetch & Preconnect: Speed up critical resource fetching.
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	🛠️ 4. Test and Monitor Regularly
+		Use Lighthouse audits to track improvements.
+		Set up performance monitoring tools like Sentry or New Relic.
+
+--: <picture> Tag in HTML
+	The <picture> tag is used to display responsive images by allowing you to define multiple image sources based on screen size, device resolution, or image formats. It helps deliver the best-optimized image for different devices.
+
+	<picture>
+		<source srcset="image-large.webp" type="image/webp" media="(min-width: 800px)">
+		<source srcset="image-small.jpg" type="image/jpeg" media="(max-width: 799px)">
+		<img src="fallback.jpg" alt="Responsive Image">
+	</picture>
+
+--:	Tailwind CSS – An Overview
+		Tailwind CSS is a utility-first CSS framework used to rapidly build modern, responsive, and customizable websites. 
+		Instead of writing custom CSS, you apply predefined utility classes directly to your HTML.
+
+		Why Use Tailwind CSS?
+			📦 Faster Development : No need to write custom CSS—use utility classes.
+			📱 Responsive by Default : Easily add responsive breakpoints.
+			🎨 Customizable	Modify : design in the config file.
+			🚀 Optimized for Speed : Smaller CSS bundles with automatic purging.
+			🔌 Framework Agnostic :	Works with HTML, React, Vue, and more.
+
+--:	How does Tailwind CSS improve performance compared to writing custom utility classes manually?
+		1. 📦 No Need to Write and Maintain CSS
+		2. 🚀 Faster Development Process
+			No need to name every class—you simply compose styles inline.
+		3. 📊 Optimized Performance (Automatic Purging)
+			Automatically removes unused CSS during production with PurgeCSS, keeping your final CSS file tiny.
+		4. 📱 Built-In Responsive Design
+			With Tailwind: Use responsive prefixes (sm:, md:, lg:, etc.) out of the box.
+
+--:	🗂️ What is Version Control?
+		Version Control is a system that helps you track changes to your code or project files over time.
+		It allows multiple developers to collaborate, track edits, and revert to previous versions if needed.
+
+--: 🔄 Difference Between git pull and git fetch
+		Both git pull and git fetch are used to update your local repository with changes from a remote repository, but they work differently.
+
+		📥 git fetch
+			Retrieves the latest changes from the remote repository but does not update your working directory.
+
+		🔄 git pull
+			Fetches the latest changes and automatically merges them into your current branch.
+			Combines git fetch + git merge.
+
+
+Js
+-------------------------------------
+--: undefines / Null
+	Null: Represents an intentional absence of value.
+
+--: Primitive - nonPrimitive
+
+	🧮	Primitive types are immutable (cannot be changed) and stored by value.
+		String, Number, Boolean, Undefined, Null, BigInt, Symbol
+
+		✅ Characteristics of Primitive Types:
+			Stored by Value – When you copy a primitive, you create an independent copy.
+			Immutable – You cannot modify the value itself.
+			Comparisons by Value – Two primitives are equal if their values are the same.
+
+	📦 Non-primitive types are mutable (can be changed) and stored by reference. 
+		Object, Array, Function, Date, 
+
+		Non-Primitive (Reference) Data Types
+
+		✅ Characteristics of Non-Primitive Types:
+			Stored by Reference – Variables store a reference (or address), not the actual value.
+			Mutable – You can modify their content.
+			Comparisons by Reference – Two non-primitives are equal only if they reference the same object.
+--: Hoisting
+--: lexical scope
+--: shallow copy : slice
+--: callback function
+--: Async Await
+--: Primises
+--: API - whats is API - and - Types 
+--: UseState
+--: Imperationve - Declarative Programming
+--: Closure
+--: SetTImeout
+--: SetInterval
+--: PassByValue - PassByReference
+--: Truthy & Falsy
+--: Deep Copy & shallow Copy
+
+	🧱 1. Shallow Copy
+		A shallow copy only copies the top-level properties. If the object contains nested objects or arrays, those are shared between the original and the copy.
+		👉 Shallow copy shares nested objects. Changes affect both copies.
+
+		✅ Shallow Copy (Copies Only Top-Level)
+			const original = { name: "Alice", details: { age: 25 } };
+
+			// Shallow copy using spread
+			const shallowCopy = { ...original };
+
+			// Modify the nested object
+			shallowCopy.details.age = 30;
+
+			console.log(original.details.age); // 30 (Changed!)
+			console.log(shallowCopy.details.age); // 30 (Same reference)
+	
+	🌊 2. Deep Copy
+		A deep copy duplicates everything, including all nested objects and arrays. Changes to the copy won't affect the original.
+		👉 Deep copy duplicates everything. Changes do not affect the original.
+
+		✅ Deep Copy (Creates Independent Copy)
+			const original = { name: "Alice", details: { age: 25 } };
+
+			// Deep copy using JSON
+			const deepCopy = JSON.parse(JSON.stringify(original));
+
+			// Modify the nested object
+			deepCopy.details.age = 30;
+
+			console.log(original.details.age); // 25 (Unchanged!)
+			console.log(deepCopy.details.age); // 30 (Independent copy)
+
+
+	🚀 When to Use What?
+		Shallow Copy – When the object has no nested structures (or if you want shared references).
+		Deep Copy – When you need a fully independent object and want to prevent mutations.
+
+--: spread / Rest
+
+
+
+--: Ajax
+	AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server without reloading the entire webpage
+
+--: Type coercion
+	automatic conversion of values to a common type
+
+--: What is the difference between Promise.then() and async/await?
+	Promise.then() uses chaining, while async/await makes asynchronous code look synchronous and is easier to read.
+
+--: How do setTimeout() and setInterval() work?
+	setTimeout() delays execution once, while setInterval() repeatedly runs a function at a fixed interval.
+
+--: What are Web Workers?
+	Web Workers allow running JavaScript in background threads, improving performance for CPU-intensive tasks.
+
+
