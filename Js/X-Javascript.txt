@@ -66,6 +66,9 @@ Interiew
 	Optimize Assets – Compress images, minify CSS/JS, use lazy loading.
 	Enhance Delivery – Implement caching, use CDN, reduce HTTP requests.
 	Refactor Code – Optimize React components (e.g., lazy loading).
+		- Lazy loading means images, videos, or other resources load only when they are needed, instead of loading everything at once.
+		<img src="image.jpg" alt="Lazy Loaded Image" loading="lazy">
+
 	Monitor and Improve – Track performance regularly with tools.
 
 	1. Analyze and Measure the Problem
@@ -110,8 +113,16 @@ Interiew
 		Use Lighthouse audits to track improvements.
 		Set up performance monitoring tools like Sentry or New Relic.
 
+--: Lazy Loading
+	Lazy Loading (Improve Page Performance)
+	Lazy loading means images, videos, or other resources load only when they are needed, instead of loading everything at once.
+	<img src="image.jpg" alt="Lazy Loaded Image" loading="lazy">
+	✔ loading="lazy" tells the browser to load the image only when it's about to enter the viewport.
+	✔ This reduces initial page load time and improves performance.
+
 --: <picture> Tag in HTML
-	The <picture> tag is used to display responsive images by allowing you to define multiple image sources based on screen size, device resolution, or image formats. It helps deliver the best-optimized image for different devices.
+	The <picture> tag is used to display responsive images by allowing you to define multiple image sources based on screen size, device resolution, or image formats. 
+	It helps deliver the best-optimized image for different devices.
 
 	<picture>
 		<source srcset="image-large.webp" type="image/webp" media="(min-width: 800px)">
@@ -164,9 +175,8 @@ Js
 	🧮	Primitive types are immutable (cannot be changed) and stored by value.
 		String, Number, Boolean, Undefined, Null, BigInt, Symbol
 
-		✅ Characteristics of Primitive Types:
+		✅ Characteristics of Primitive Types: (Immutable – You cannot modify the value itself.)
 			Stored by Value – When you copy a primitive, you create an independent copy.
-			Immutable – You cannot modify the value itself.
 			Comparisons by Value – Two primitives are equal if their values are the same.
 
 	📦 Non-primitive types are mutable (can be changed) and stored by reference. 
@@ -174,22 +184,71 @@ Js
 
 		Non-Primitive (Reference) Data Types
 
-		✅ Characteristics of Non-Primitive Types:
+		✅ Characteristics of Non-Primitive Types: (Mutable – You can modify their content.)
 			Stored by Reference – Variables store a reference (or address), not the actual value.
-			Mutable – You can modify their content.
 			Comparisons by Reference – Two non-primitives are equal only if they reference the same object.
+
 --: Hoisting
---: lexical scope
---: shallow copy : slice
---: callback function
+	Hoisting is JavaScript's default behavior of moving function and variable declarations to the top of their scope before execution.
+
+--: Debounce
+	- Debounce: Calls the function only after a period of inactivity (e.g., after the user stops typing for a set amount of time).
+	- Debounce is a technique that ensures a function is only called after a certain delay, and only once after the user stops performing an action.
+	- Debounce waits for a pause in the action (inactivity) and then triggers the function once.
+
+--: Throttle
+	- Throttle: Calls the function at regular intervals (e.g., every 500ms), even if the event happens multiple times.	
+	- Throttle is a technique that ensures a function is only called at a fixed interval (e.g., once every 500ms), no matter how many times the event occurs.
+	- Throttle ensures that the function is triggered at fixed intervals, no matter how often the event happens.
+
+
+--: Garbage Collection
+	Garbage collection (GC) is the process of automatically freeing up memory by removing objects that are no longer needed. 
+	This helps keep our programs efficient and prevents memory leaks.
+
+--: What is 'this' in JavaScript?	
+	In JavaScript, this refers to the context or object in which a function is executed.
+	-	In JavaScript, this keyword refers to the object where it is called.
+	-	In regular functions, this can change based on how the function is invoked.
+	-	In arrow functions, this is lexically bound, meaning it takes the value of 'this' from the surrounding context where the function is defined.
+
+--: Arrow Function
+	- Arrow functions don't have their own this. 
+		In the case above, the arrow function inherits this from the global scope (or whatever scope the function was defined in).
+	- In a browser environment, this will refer to the global window object.
+	
+--: Callback Function
+	A callback function is a function passed as an argument to another function and executed later, when needed.
+
 --: Async Await
+	With Async/Await, we can write asynchronous code that looks like synchronous code. 
+	async declares asynchronous function, await pause execution until a Promise resoled.
+
 --: Primises
 --: API - whats is API - and - Types 
 --: UseState
 --: Imperationve - Declarative Programming
+
+--: lexical scope
+	-	✅ Lexical Scope means a function can access variables from its parent scope.
+	-	The lexical scope is the area of the code where a variable is declared, 
+		and it determines the context in which the arrow function is executed.
+	- the surrounding context when the function is defined
+
 --: Closure
+	Closures happen when a function remembers the variables from its parent function even after the parent function has finished executing.
+	In JavaScript, closure provides access to the outer scope of a function from inside the inner function, even after the outer function has closed. For example,
+	A closure is a function that remembers the variables from its outer scope, even after the outer function has finished executing.
+	👉 Closures allow functions to maintain access to variables even after they are out of scope.
+
 --: SetTImeout
+	1. setTimeout() - Run Code After a Delay
+		Runs only once after a given time.
+
 --: SetInterval
+	2. setInterval() - Repeat Code Every Interval
+	Runs repeatedly at a fixed interval.
+
 --: PassByValue - PassByReference
 --: Truthy & Falsy
 --: Deep Copy & shallow Copy
@@ -231,8 +290,16 @@ Js
 		Shallow Copy – When the object has no nested structures (or if you want shared references).
 		Deep Copy – When you need a fully independent object and want to prevent mutations.
 
---: spread / Rest
+--: JSON.stringify()
+	JSON.stringify() converts objects to strings, and two identical strings are equal.
 
+--: JavaScript Context
+	In JavaScript, context refers to the value of this inside a function.
+	Refers to the object that owns the function
+	user.greet() → this is user
+
+--: spread / Rest
+	
 
 --: Ajax
 	AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server without reloading the entire webpage
@@ -243,10 +310,47 @@ Js
 --: What is the difference between Promise.then() and async/await?
 	Promise.then() uses chaining, while async/await makes asynchronous code look synchronous and is easier to read.
 
+--: Promise 
+	used to handle asynchronous operation
+
 --: How do setTimeout() and setInterval() work?
 	setTimeout() delays execution once, while setInterval() repeatedly runs a function at a fixed interval.
 
 --: What are Web Workers?
 	Web Workers allow running JavaScript in background threads, improving performance for CPU-intensive tasks.
+
+--: use of Async / defer in script tag
+
+--: textContent / innerHtml
+	When to Use:
+	Use textContent :- 
+		when you want to display or modify plain text.
+	Use innerHTML :- 
+		when you need to insert or update HTML elements dynamically.
+
+--: Event Loading in JavaScript?
+	Event loading refers to how JavaScript handles the loading of events (like click, DOMContentLoaded, or load) and executes them at the right time.
+	1. DOMContentLoaded (Fires When HTML is Loaded)
+	2. load (Fires After Everything is Loaded)
+	3. beforeunload (Triggers Before Page Unloads)
+	
+--: map(), filter(), forEach()
+	✔ map()
+		- Transforms Each Element & Returns a New Array
+	✔ filter()
+		- Filters Elements Based on a Condition
+	✔ forEach()
+		- Just Loops Over an Array
+		-  Used for: Performing an action on each element (without returning anything).
+	✔ reduce()
+		- reduce() is a powerful JavaScript array method that reduces an array to a single value. This value can be a sum, product, object, or even another array.
+
+--: call(), apply(), and bind() 
+	- call() invokes a function immediately and allows you to pass arguments one by one.
+	- apply() works like call(), but it passes arguments as an array.
+	- bind() doesn’t call the function immediately but returns a new function with this bound.
+
+--: Event Delegation
+	- 
 
 
