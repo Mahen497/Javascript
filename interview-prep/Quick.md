@@ -96,6 +96,9 @@ null ?? "default"       // "default"
 undefined ?? "default"  // "default"
 0 ?? 100                 // 0
 0 || 100                 // 100
+
+console.log(0 || 100);  // 100   (because 0 is falsy)
+console.log(0 ?? 100);  // 0     (because 0 is not null/undefined)
 ```
 
 ---
@@ -110,17 +113,59 @@ undefined ?? "default"  // "default"
 
 ---
 
-## ⚡ Rule Recap
+## ⚡ Rule Recap - Logical Operators
 
 * `&&` (AND):
 
   * if **1st is falsy → returns 1st**
   * if **1st is truthy → returns 2nd**
 
+  * true && true; // returns true
+  * true && false;// returns false
+  * false && true; // returns false
+  * false && false; // returns false
+
+  * 0 && 10; // returns 0
+  * 10 && 20; // returns 20 
+  * 20 && 0; // returns 0
+
 * `||` (OR):
 
-  * if **1st is truthy → returns 1st**
   * if **1st is falsy → returns 2nd**
+  * if **1st is truthy → returns 1st**
 
 📌 Falsy values: `0, "", null, undefined, NaN, false`
+
+
+## 📝 Example 1
+
+```js
+null || 10 || false
+```
+
+* `null` → falsy → move to next
+* `10` → truthy → **stop here, return it**
+  ✅ Output: `10`
+
+---
+
+## 📝 Example 2
+
+```js
+false || null || undefined
+```
+
+* `false` → falsy
+* `null` → falsy
+* `undefined` → falsy (last one)
+* All are falsy → returns **last one**
+
+✅ Output: `undefined`
+
+---
+
+## ⚡ Memory Trick
+
+> `||` stops at the **first truthy** value,
+> or gives the **last falsy** if nothing truthy exists.
 
