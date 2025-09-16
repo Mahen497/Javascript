@@ -35,6 +35,8 @@ console.log("Outside:", a); // 10 (Original remains unchanged)
 ## ✅ **2. What is Pass by Reference?**
 When you pass a variable **by reference**, the **address (reference)** of the object is shared. Changes inside the function **affect the original** object.
 
+### When you pass data to the function, obj points to the same object in memory. Any changes to obj directly modify the original object.
+
 ### 🔵 **Example (Pass by Reference – Objects)**
 
 ```javascript
