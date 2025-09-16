@@ -26,6 +26,17 @@ greet.call(person2, 30); // Output: Hello, my name is Bob and I am 30 years old.
 - `call(person2, 30)` → `this` refers to `person2`, and `30` is passed as `age`.  
 
 ---
+### 📌 Key Point
+
+* Your way is **simple and totally fine** if you control the function and can pass the object as a parameter.
+* `call()` is useful when:
+
+  * Function is already written to use `this` instead of parameters.
+  * You want to **borrow methods from one object and use them on another**.
+  * You want to **dynamically change `this` context** at runtime.
+
+---
+
 
 ## **2️⃣ `apply()` Method**
 ✅ **`apply()` works like `call()`, but it passes arguments as an array.**  
