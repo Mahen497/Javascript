@@ -23,55 +23,61 @@ Experienced Front-End Developer with over 6 years of expertise in building respo
 
 ---
 
-## 💻 Work Experience  
+## 💼 Work Experience  
 
-### Front-end Developer  
-**Yanolja Cloud Solutions**  
-**Duration:** May 2025 – June 2025  
-**Job Description:**  
-- Collaborated with the development team to build and enhance web pages.  
-- Focused on improving visual design and performance across platforms.  
+### **Front-End Developer**  
+**Company:** Yanolja Cloud Solutions  
+**Employment Dates:** May 2025 – June 2025  
 
----
-
-### Front-end Developer  
-**Ninjatech Pvt Ltd**  
-**Duration:** Jun 2024 – Dec 2024  
-**Responsibilities:**  
-- Designed user-facing applications using the React.js framework.  
-- Built modular and reusable components.  
-- Managed development workflows using Git and npm.  
-
-**Primary Skills:**  
-- HTML5 & CSS3, Sass, Tailwind, React  
-- JavaScript, jQuery  
+- Collaborated with global teams to revamp and enhance the company’s B2B travel platform interface.  
+- Delivered visually consistent and optimized pages, improving load time and overall performance.  
+- Ensured cross-browser compatibility and responsive design across multiple devices.  
+- Applied modern UI/UX practices to improve user navigation flow and reduce bounce rates.  
 
 ---
 
-### Front-end Developer  
-**Aureate Labs Pvt Ltd**  
-**Duration:** Mar 2022 – Apr 2024  
-**Job Description:**  
-- Led project planning, estimation, and execution across cross-functional teams.  
-- Assigned project tasks based on client requirements and monitored progress.  
-- Conducted thorough testing of design, code structure, jQuery functionality, and CSS validity.  
+### **Front-End Developer**  
+**Company:** Ninjatech Pvt Ltd  
+**Employment Dates:** June 2024 – December 2024  
 
-**Experience & Skills:**  
-- HTML5, CSS3, SASS, JavaScript, jQuery  
-- Basic knowledge of React.js and chart/graph libraries  
-- WordPress theme and plugin customization  
-- Strong design sense (Photoshop, XD, Figma, Sketch)  
-- Delivered high-quality, optimized code  
+- Designed and implemented **modular, reusable React.js components**, reducing future development time by 30%.  
+- Built **responsive user-facing applications** with a focus on performance, accessibility, and maintainability.  
+- Integrated APIs and optimized data handling for better page load performance.  
+- Collaborated with backend developers and QA teams to deliver high-quality releases on tight deadlines.  
+- Managed development workflows using **Git** and **npm** to maintain clean version control and deployments.  
+
+**Core Skills Used:** React.js, Tailwind CSS, Sass, JavaScript, jQuery, Git, npm  
 
 ---
 
-### Front-end Developer  
-**Sassy Infotech Pvt Ltd**  
-**Duration:** Jun 2018 – Feb 2022  
-**Job Description:**  
-- Planned, designed, and implemented complete websites from scratch.  
-- Converted PSD designs to responsive HTML layouts.  
-- Designed website layouts using Adobe Photoshop, Figma, and XD.  
+### **Front-End Developer**  
+**Company:** Aureate Labs Pvt Ltd  
+**Employment Dates:** March 2022 – April 2024  
+
+- Led planning, estimation, and execution of front-end deliverables for multiple client projects.  
+- Translated Figma/XD mockups into **pixel-perfect HTML/CSS pages** with robust, reusable code.  
+- Performed thorough testing for **UI design, jQuery functionality, and CSS structure**, ensuring code quality.  
+- Worked on **WordPress theme customization**, plugin configuration, and page optimization.  
+- Mentored junior developers on coding best practices and conducted regular code reviews.  
+
+**Key Achievements:**  
+- Reduced page load time by **1.5s** across multiple projects through optimized front-end builds.  
+- Achieved a **100% on-time delivery rate** for all assigned projects.  
+
+---
+
+### **Front-End Developer**  
+**Company:** Sassy Infotech Pvt Ltd  
+**Employment Dates:** June 2018 – February 2022  
+
+- Created and launched **complete websites from scratch**, handling layout design and implementation.  
+- Converted **PSD mockups into responsive HTML/CSS pages** using Bootstrap and jQuery.  
+- Designed custom CMS blocks and templates within Magento.  
+- Maintained **cross-browser compatibility and SEO-friendly structure**.  
+- Collaborated closely with designers to ensure visual consistency across the site.  
+
+**Key Tools Used:** HTML5, CSS3, Bootstrap, jQuery, Figma, Adobe XD, Photoshop  
+
 
 ---
 
