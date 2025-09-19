@@ -1,72 +1,127 @@
-# Mahendra G. Patil
+# Mahendra Patil  
 
-**Front-End Developer**  
-Mobile: +91 8460204840  
-Email: mahendragpatil4@gmail.com  
-GitHub: [Mahen497](https://github.com/Mahen497)  
-
----
-
-## Professional Summary
-
-Experienced Front-End Developer with over 7 years of expertise in building dynamic, responsive web applications. Proficient in modern frameworks, design tools, and CMS platforms. Known for delivering high-quality code, collaborating across teams, and designing visually captivating user interfaces with optimal user experience.
+## 📞 Contact Information  
+- **Mobile:** 8460204840  
+- **Email:** mahendragpatil4@gmail.com  
+- **Location:** Surat, India  
+- **LinkedIn:** [LinkedIn Profile](#) *(optional)*  
+- **Portfolio:** [Portfolio Website](#) *(optional)*  
 
 ---
 
-## Technical Skills
-
-- **Languages & Frameworks:** HTML5, CSS3, JavaScript, jQuery, SASS, Bootstrap, Tailwind, React.js, Vue.js
-- **CMS:** Magento, WordPress (themes, plugins, customization)
-- **Design Tools:** Figma, Adobe XD, Photoshop, Sketch
-- **Version Control & Build Tools:** Git, npm
-- **Other:** Responsive Design, Cross-Browser Compatibility
+## 💼 Professional Summary  
+Experienced Front-End Developer with over 6 years of expertise in building responsive, user-centric web applications. Skilled in creating CMS blocks and pages, planning layouts for optimal user experience, and ensuring responsive design with cross-browser compatibility. Proficient in HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, and Sass, with experience in Magento and Vue.js platforms. Familiar with Figma, Adobe XD, and Photoshop for design workflows.
 
 ---
 
-## Work Experience
-
-### Front-End Developer | Yanolja Cloud Solutions  
-**May 2025 – June 2025**  
-- Designed and developed user-facing applications using React.js.
-
-### Front-End Developer | Ninjatech Pvt Ltd  
-**June 2024 – Dec 2024**  
-- Built modular and reusable React.js components for user-facing applications.
-- Utilized HTML5, CSS3, Sass, Tailwind, JavaScript, jQuery, Git, npm.
-
-### Front-End Developer | Aureate Labs Pvt Ltd  
-**Mar 2022 – Apr 2024**  
-- Led project management: cross-functional collaboration, planning, estimation, and execution.
-- Communicated requirements, set stakeholder expectations, and assigned tasks.
-- Performed thorough testing for design, jQuery functions, code structure, format, and CSS validity.
-- Specialized in HTML5, CSS3, SASS, JavaScript, jQuery, and WordPress.
-- Converted mockups to HTML using Photoshop, XD, Figma, and Sketch.
-
-### Front-End Developer | Sassy Infotech Pvt Ltd  
-**June 2018 – Feb 2022**  
-- Designed and implemented complete websites from scratch.
-- Converted PSD designs to HTML.
-- Responsible for website layouts using HTML and CSS.
-- Utilized design tools including Photoshop, Figma, XD.
+## 🛠 Skills  
+- **Frontend Technologies:** HTML5, CSS3, Sass, Tailwind CSS, JavaScript, jQuery, Bootstrap  
+- **Frameworks & Platforms:** React.js (basic), Magento, Vue.js, WordPress (themes, plugins, customization)  
+- **Design Tools:** Figma, Adobe XD, Adobe Photoshop, Sketch  
+- **Version Control:** Git, npm  
+- **Other:** Cross-browser compatibility, Responsive Design, UI/UX principles
 
 ---
 
-## Education
+## 💻 Work Experience  
 
-- **M.C.A.**  
-  SRIMCA, UKA Tarsadiya University  
-  2017 — Second Class
+### Front-end Developer  
+**Yanolja Cloud Solutions**  
+**Duration:** May 2025 – June 2025  
+**Job Description:**  
+- Collaborated with the development team to build and enhance web pages.  
+- Focused on improving visual design and performance across platforms.  
 
-- **B.C.A.**  
-  Madhav Institute, VNSGU  
-  2014 — Second Class
+---
+
+### Front-end Developer  
+**Ninjatech Pvt Ltd**  
+**Duration:** Jun 2024 – Dec 2024  
+**Responsibilities:**  
+- Designed user-facing applications using the React.js framework.  
+- Built modular and reusable components.  
+- Managed development workflows using Git and npm.  
+
+**Primary Skills:**  
+- HTML5 & CSS3, Sass, Tailwind, React  
+- JavaScript, jQuery  
 
 ---
 
-## Personal Qualities
+### Front-end Developer  
+**Aureate Labs Pvt Ltd**  
+**Duration:** Mar 2022 – Apr 2024  
+**Job Description:**  
+- Led project planning, estimation, and execution across cross-functional teams.  
+- Assigned project tasks based on client requirements and monitored progress.  
+- Conducted thorough testing of design, code structure, jQuery functionality, and CSS validity.  
 
-- Effective communication and presentation skills.
-- Strong problem-solving ability.
-- Positive work attitude and collaborative spirit.
+**Experience & Skills:**  
+- HTML5, CSS3, SASS, JavaScript, jQuery  
+- Basic knowledge of React.js and chart/graph libraries  
+- WordPress theme and plugin customization  
+- Strong design sense (Photoshop, XD, Figma, Sketch)  
+- Delivered high-quality, optimized code  
 
 ---
+
+### Front-end Developer  
+**Sassy Infotech Pvt Ltd**  
+**Duration:** Jun 2018 – Feb 2022  
+**Job Description:**  
+- Planned, designed, and implemented complete websites from scratch.  
+- Converted PSD designs to responsive HTML layouts.  
+- Designed website layouts using Adobe Photoshop, Figma, and XD.  
+
+---
+
+## 📁 Projects  
+
+### IshaLife Sadhguru (Magento)  
+- Created visually appealing and user-friendly layouts for various pages.  
+- Worked within the Magento platform to deliver optimized front-end designs.
+
+### Jollyes (Vue.js)  
+- Designed dynamic and responsive web pages using Vue.js framework.  
+- Focused on delivering seamless browsing experience.
+
+### National Geographic Your Lens  
+- Built using jQuery, Bootstrap, Swiper Slider, LightGallery, Owl Carousel, and other packages.  
+- Developed an interactive and responsive layout.
+
+### Courtsoftheworld  
+- Contributed to layout design and responsive front-end development.
+
+### Yahyad ([http://yahyad.com](http://yahyad.com))  
+- Implemented and enhanced the site design for better UX and performance.
+
+### Alcomi Studio  
+- Assisted in front-end design and layout implementation.
+
+---
+
+## 🎓 Education  
+
+### Master of Computer Applications (M.C.A)  
+**Institution:** SRIMCA  
+**University:** UKA Tarsadiya University  
+**Year:** 2017  
+**Result:** Second Class  
+
+### Bachelor of Computer Applications (B.C.A)  
+**Institution:** Madhav Institute  
+**University:** VNSGU  
+**Year:** 2014  
+**Result:** Second Class  
+
+---
+
+## 📜 Certifications  
+- *(Currently not added — can be included if available)*  
+
+---
+
+## 💡 Personal Qualities  
+- Effective Communication and Presentation Skills  
+- Strong Problem-Solving Approach  
+- Positive Work Attitude and Team Spirit  
