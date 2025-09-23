@@ -129,6 +129,11 @@ console.log(0 ?? 100);  // 0     (because 0 is not null/undefined)
   * 10 && 20; // returns 20 
   * 20 && 0; // returns 0
 
+* How && works in JS:
+
+  * If left side is true, it returns right side.
+  * If left side is false, it returns false (renders nothing).
+
 * `||` (OR):
 
   * if **1st is falsy → returns 2nd**
