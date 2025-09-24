@@ -338,4 +338,12 @@ console.log(Object.values(user));
 
 # <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+### 🔹 `event.preventDefault()`
+```markdown
+- This method **prevents the default action** associated with an event,  
+  such as navigating to a link or submitting a form.
+```
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
 
