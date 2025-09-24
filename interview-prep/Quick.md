@@ -174,3 +174,168 @@ false || null || undefined
 > `||` stops at the **first truthy** value,
 > or gives the **last falsy** if nothing truthy exists.
 
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+  Got it 👍 Let’s break down **JavaScript Promise Chaining** in the simplest way.
+
+---
+
+# 🔗 JavaScript – Promise Chaining
+
+### ✅ What is it?
+
+Promise chaining means using **`.then()` one after another**, where the **output of one Promise becomes the input of the next**.
+
+
+
+# ----------------- 24/09/2025 -----------------
+---
+
+## 🔑 break down Promise.all vs Promise.allSettled in an interview-ready way.
+
+* **`Promise.all`** → resolves only if all succeed; rejects on the first failure.
+* **`Promise.allSettled`** → waits for all, and always resolves with an array of result statuses.
+
+* **`Promise.allSettled` → "tell me everything"
+* **`Promise.race` → "first to finish wins, good or bad"
+* **`Promise.any` → "first success wins"
+
+---
+
+
+## 🔹 What is `setInterval`?
+
+* A **JavaScript timer function**.
+* Executes a given function **repeatedly** after a fixed time interval (in milliseconds).
+* Keeps running until you **stop it** using `clearInterval`.
+
+---
+
+✅ Quick Mnemonic:
+
+* `setTimeout` → "Do it **later** once"
+* `setInterval` → "Do it **again and again** until told to stop"
+
+---
+
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+### **1. Cookies**
+
+* **Part of the browser storage mechanism**.
+* **Stores data in key–value pairs**.
+* **Persistent or temporary:** can have expiry date; session cookies are deleted when the browser closes.
+* **Storage limit:** \~4 KB per cookie.
+* **Sent to server automatically** with every HTTP request (unlike LocalStorage/SessionStorage).
+* **Accessible via JavaScript** unless marked `HttpOnly`.
+* **Use Case:** Session management, authentication, user preferences, tracking.
+
+---
+
+### **2. LocalStorage**
+
+* **Part of the Web Storage API.**
+* **Stores data in key–value pairs** in the browser.
+* **Persistent:** data remains even after closing and reopening the browser.
+* **Storage limit:** \~5–10 MB per domain.
+* **Data not sent to server automatically**.
+* **Accessible via JavaScript.**
+* **Use Case:** Storing large non-sensitive data like preferences, caching, offline storage.
+
+---
+
+### **3. SessionStorage**
+
+* **Part of the Web Storage API.**
+* **Stores data in key–value pairs** in the browser.
+* **Temporary:** data is cleared when the browser tab closes.
+* **Storage limit:** \~5–10 MB per domain.
+* **Data not sent to server automatically.**
+* **Accessible via JavaScript.**
+* **Use Case:** Tab-specific or temporary session data, forms, wizards.
+
+---
+
+💡 **Quick Comparison Table**
+
+| Feature        | Cookies             | LocalStorage       | SessionStorage    |
+| -------------- | ------------------- | ------------------ | ----------------- |
+| Size Limit     | \~4 KB              | \~5–10 MB          | \~5–10 MB         |
+| Lifetime       | Expiry date         | Persistent         | Tab closes        |
+| Sent to Server | ✅                   | ❌                  | ❌                 |
+| JS Accessible  | ✅ (unless HttpOnly) | ✅                  | ✅                 |
+| Use Case       | Session, auth       | Preferences, cache | Tab-specific data |
+
+---
+
+💡 **Mnemonic to remember BOM objects:**
+```js
+Window, Navigator, Screen, Location, History, Alert, Timer → WNSLHT
+```
+
+
+# ----------------- 25/09/2025 -----------------
+
+
+Here’s a **quick interview-style definition** of each:
+
+### 🔹 `Object.assign(target, ...sources)`
+
+To copy properties and their values from one object to another object.
+
+
+```js
+const obj1 = {a:1}, obj2 = {b:2};
+const result = Object.assign({}, obj1, obj2);
+console.log(result); // {a:1, b:2}
+```
+
+---
+
+### 🔹 `Object.entries(obj)`
+
+Returns an **array of `[key, value]` pairs** from the object.
+
+```js
+const user = {id:1, name:"Mahendra"};
+console.log(Object.entries(user)); 
+// [["id",1], ["name","Mahendra"]]
+```
+---
+
+### 🔹 `Object.values(obj)`
+
+To get all **values of the object** in the array format.
+
+```js
+const user = {id:1, name:"Mahendra"};
+console.log(Object.values(user)); 
+// [1, "Mahendra"]
+```
+---
+
+### 🔹 `Object.seal(obj)`
+
+To get all **values of the object** in the array format.
+To seal the object.
+
+```js
+const user = {id:1, name:"Mahendra"};
+console.log(Object.values(user)); 
+// [1, "Mahendra"]
+```
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+### 🔹 `keyup`
+- Fires **when a key is released**.  
+- Useful for **final values** (like in search inputs).  
+
+### 🔹 `keydown`
+- Fires **when a key is pressed down**.  
+- Triggered for **all keys** (letters, numbers, function keys, Ctrl, Shift, etc.).  
+- Fires **continuously if the key is held down**.  
+
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
