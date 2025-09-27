@@ -345,5 +345,69 @@ console.log(Object.values(user));
 ```
 # <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+# ----------------- 26/09/2025 -----------------
+
+### ✅ Ways to Create an Empty Array in JavaScript
+
+1. **Square brackets (preferred):**
+
+   ```js
+   let arr = [];
+   ```
+2. **Constructor:**
+
+   ```js
+   let arr = new Array(); // []
+   let arr = new Array(5); // [ <5 empty items> ] ⚠️ not truly empty
+   ```
+3. **Array.of():**
+
+   ```js
+   let arr = Array.of();
+   ```
+
+👉 **Best practice:** use `[]` (clean & clear).
+
+---
+
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+# ----------------- 27/09/2025 -----------------
+
+## **JavaScript Animation – Quick Review**
+
+  **`requestAnimationFrame(callback)`**
+
+  * Schedules `callback` to run **before next browser repaint**.
+  * Used for **smooth DOM animations**.
+
+  **`cancelAnimationFrame(id)`**
+
+  * Stops a scheduled animation.
+
+  **Example:**
+
+  ```javascript
+  let pos = 0;
+  function animate() {
+    if(pos < 350) {
+      pos++;
+      elem.style.left = pos + 'px';
+      requestAnimationFrame(animate);
+    }
+  }
+  requestAnimationFrame(animate);
+  ```
+
+  **Advantages over setInterval/setTimeout:**
+
+  * Syncs with browser refresh → **smoother** (~60fps)
+  * **Stops in inactive tabs** → more efficient
+  * Better **timing accuracy**
+
+---
+
+
+
 
 
