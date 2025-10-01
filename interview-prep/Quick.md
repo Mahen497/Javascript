@@ -433,10 +433,50 @@ This approach is useful in real life when some data is available early and other
 
 ---
 
-💡 **Tip:**
+# ----------------- 01/10/2025 -----------------
 
-* Speak slowly, highlight **currying** and **closure** clearly.
-* You can optionally give a **one-line output example**:
+* **Debounce**:
+  Ensures a function runs **only after a certain time has passed since the last event**.
+  👉 Use when you want to **limit execution until user stops triggering** (e.g., search box typing).
+
+* **Throttle**:
+  Ensures a function runs **at most once in a fixed time interval** (ignores extra calls in between).
+  👉 Use when you want to **limit how often a function executes** (e.g., scroll event).
+
+---
+
+## 🏋️ Step 3: Practice Exercises
+
+Here are **practice challenges** you can try to be perfect:
+
+1. **Debounce Practice**
+
+   * Create a search input (`<input id="search" />`).
+   * On typing, fetch data from a fake API (`jsonplaceholder.typicode.com/users`) using debounce.
+   * Try changing delay (300ms vs 1s) to see difference.
+
+2. **Throttle Practice**
+
+   * Attach a scroll listener to `window`.
+   * Show "Scroll position: Y" in a `<div>`.
+   * Apply throttle at 500ms and then at 2s to feel the difference.
+
+3. **Combination Practice**
+
+   * Create a **resize event handler** that logs window size:
+
+     * Throttle: update UI smoothly while resizing.
+     * Debounce: only show size after resize is done.
+
+---
+
+## 🧠 Pro Tips to Master It
+
+* **Play with time delays** → 200ms, 500ms, 2s (see behavior change).
+* **Try without debounce/throttle first** to feel how many events are triggered.
+* **Interview trick**: If asked, always explain with **search input (debounce)** and **scroll event (throttle)**.
+
+---
 
 
 
