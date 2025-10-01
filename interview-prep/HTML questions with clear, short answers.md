@@ -339,8 +339,14 @@ Perfect 👍 Let’s go through **all 25 HTML questions with clear, short answer
 **Q53. Tell me about one project you are proud of (Ecommerce, Dashboard, Landing Page)?**
 👉 *(You would give a personal experience answer here)* Example: “I optimized an ecommerce website where LCP reduced from 5.2s to 2.1s by optimizing images and using critical CSS.”
 
----
+**Q54. specificity**
+👉 CSS specificity is the algorithm used by browsers to determine which style declarations should be applied to an element when multiple rules target the same element. 
+Specificity is calculated based on a hierarchy of selector types, often represented as a four-part score (A, B, C, D):
+  -Inline Styles (A)
+  -ID Selectors (B):
+  -Class Selectors, Attribute Selectors, and Pseudo-classes (C):
+  -Element Selectors and Pseudo-elements (D):
 
-✅ This list covers **HTML + CSS + Responsive Design + Optimization + Practical Work** in **30 interview-ready Q\&As**.
 
-Would you like me to now make this into a **one-page professional PDF cheat sheet** (well formatted, structured for quick interview revision)?
+
+
